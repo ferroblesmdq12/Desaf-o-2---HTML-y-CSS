@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+/* Incluye solo las variantes que necesitas: light (300), regular (400), y bold (700) */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+        /* Incluye solo la variante Mulish Black (700) */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto; /* Add this line to move the content to the right */
+}
+
+
+
+
+button{
+    width: 400px;
+    height: 70px;
+    background-color: #0a2ff1; 
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Mulish', sans-serif;
+    font-weight:700;/*Bold*/
+    font-size: 29px;/* igual a 22pt*/
+}
+
+h1{
+    font-family: 'Mulishblack', sans-serif;
+    font-weight:700 ;
+    font-size: 80px;/* igual a 60pt*/
+    color: #0a2ff1;
+
+}
+
+h2{
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;/* igual a 30pt*/
+    font-weight: 400;/*regular*/
+    color: #0a2ff1;
+
+}
+
+
+p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 27px;/* igual a 20pt*/
+    font-weight: 400;/*regular*/
+    color: #04146c;
+}
+
+strong{
+    font-family:'Mulish', sans-serif;
+    font-weight: 700;/*bold*/
+    font-size: 27px;
+    color: #04146c;
+}
+
+
+.mujer{
+    width: 400px;
+    height: 580px;
+    margin-left: 200px;
+    margin: right:0;
+    position: absolute;
+    top: 110;
+    left: 50px;
+    z-index: 2; /* Capa superior */
+    border: 5px solid #0a2ff1;
+}
+
+.grafico{
+    position: absolute;
+    top: 500px; /* Ajusta la posición vertical según sea necesario */
+    left: 100px; /* Ajusta la posición horizontal según sea necesario */
+    
+    z-index: 1; /* Capa inferior */
+}
+
